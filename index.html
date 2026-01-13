@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Roger | Portfolio</title>
 
-  <!-- Font Awesome for social icons -->
+  <!-- Font Awesome for social + skill icons -->
   <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -22,7 +22,6 @@
       <nav class="nav">
         <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -38,12 +37,10 @@
         <h1>ROGER</h1>
         <h2>UI/UX Designer | Student</h2>
         <p class="hero-text">
-          A fourth-year ICS student passionate about building clean, modern web
-          applications and solving real-world problems with code.
+          A UI/UX designer and also a fourth-year IT student, focused on creating clean, intuitive interfaces and thoughtful user experiences. I enjoy turning complex problems into simple, usable designs through wireframing, prototyping, and testing, and I’m continuously improving my skills with modern design tools and front-end technologies. My goal is to design digital products that feel effortless to use and genuinely solve user needs.
         </p>
         <div class="hero-actions">
-          <a href="#projects" class="btn primary">View Projects</a>
-          <a href="#contact" class="btn outline">Contact Me</a>
+
         </div>
       </div>
       <div class="hero-image">
@@ -61,91 +58,65 @@
     <div class="container section-content">
       <h2 class="section-title">About Me</h2>
       <p>
-        I am a dedicated student based in the Philippines, focusing on web
-        development, databases, and system design. I enjoy turning ideas into
-        functional and user-friendly applications.
-      </p>
-      <p>
-        My academic projects include management systems, research-driven
-        applications, and data visualization dashboards. I am currently
-        improving my skills in JavaScript, HTML, CSS, and databases.
+        I am a dedicated student from Sumilao, Bukidnon, Philippines, focusing on front-end web development and modern online tools. I enjoy turning ideas into responsive, user-friendly interfaces using HTML5, CSS3, and JavaScript. My academic projects include management systems and research-driven applications where I integrate Supabase for database needs and collaborate using Git and GitHub. I also make use of tools like Google Docs, Sheets, Canva, MS365, Wix, and WordPress to document work, design content, making LOGOS, and deliver polished digital experiences.
       </p>
     </div>
   </section>
 
-  <!-- Projects -->
-  <section id="projects" class="section section-alt">
-    <div class="container section-content">
-      <h2 class="section-title">Projects</h2>
-      <div class="grid projects-grid">
-        <!-- Project 1 -->
-        <article class="card project-card">
-          <h3>Lost & Found Management System</h3>
-          <p>
-            A web-based system to record, track, and manage lost and found items
-            in a campus environment, with search and status tracking features.
-          </p>
-          <p class="project-meta">
-            Tech: HTML, CSS, JS, PHP, MySQL
-          </p>
-          <a href="#" class="card-link">View Details</a>
-        </article>
-
-        <!-- Project 2 -->
-        <article class="card project-card">
-          <h3>Student Portfolio Website</h3>
-          <p>
-            A responsive personal portfolio for students to showcase academic
-            projects, skills, and achievements in a clean one-page layout.
-          </p>
-          <p class="project-meta">
-            Tech: HTML, CSS, JavaScript
-          </p>
-          <a href="#" class="card-link">View Details</a>
-        </article>
-
-        <!-- Project 3 -->
-        <article class="card project-card">
-          <h3>Data Visualization Dashboard</h3>
-          <p>
-            Interactive charts and summaries for research data analysis to help
-            users understand trends and patterns quickly.
-          </p>
-          <p class="project-meta">
-            Tech: D3.js, JavaScript, CSV
-          </p>
-          <a href="#" class="card-link">View Details</a>
-        </article>
-      </div>
-    </div>
-  </section>
+ 
 
   <!-- Skills -->
   <section id="skills" class="section">
     <div class="container section-content">
       <h2 class="section-title">Skills</h2>
       <div class="grid skills-grid">
+
         <div class="card skill-card">
           <h3>Frontend</h3>
-          <ul>
-            <li>HTML5, CSS3, JavaScript</li>
-            <li>Responsive layout, Flexbox, Grid</li>
+          <ul class="skill-list">
+            <li>
+              <i class="fab fa-html5 skill-icon"></i>
+              HTML5
+            </li>
+            <li>
+              <i class="fab fa-css3-alt skill-icon"></i>
+              CSS3
+            </li>
+            <li>
+              <i class="fab fa-js skill-icon"></i>
+              JavaScript
+            </li>
           </ul>
         </div>
+
         <div class="card skill-card">
-          <h3>Backend & Database</h3>
-          <ul>
-            <li>PHP, Java (OOP basics)</li>
-            <li>MySQL, SQL queries</li>
+          <h3>Databases</h3>
+          <ul class="skill-list">
+            <li>
+              <i class="fas fa-database skill-icon"></i>
+              Supabase
+            </li>
           </ul>
         </div>
+
         <div class="card skill-card">
           <h3>Tools & Others</h3>
-          <ul>
-            <li>Git & GitHub</li>
-            <li>Google Docs, Sheets</li>
+          <ul class="skill-list">
+            <li>
+              <i class="fab fa-git-alt skill-icon"></i>
+              Git & GitHub
+            </li>
+            <li>
+              <i class="fas fa-file-alt skill-icon"></i>
+              Google Docs, Sheets
+            </li>
+            <li>
+              <i class="fas fa-pen-nib skill-icon"></i>
+              Canva, MS365, Wix, WordPress
+            </li>
           </ul>
         </div>
+
       </div>
     </div>
   </section>
@@ -155,8 +126,8 @@
     <div class="container section-content">
       <h2 class="section-title">Contact</h2>
       <p>
-        Feel free to reach out for collaborations, project inquiries, or
-        opportunities.
+        I’m open to collaborations, freelance projects, and internship or job opportunities, feel free to get in touch.
+
       </p>
       <div class="contact-grid">
         <div>
@@ -178,6 +149,8 @@
             </a>
           </div>
         </div>
+      </div>
+    </div>
   </section>
 
   <!-- Footer -->

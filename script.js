@@ -15,17 +15,21 @@ nav.querySelectorAll("a").forEach((link) => {
 
 // Dynamic year in footer
 const yearSpan = document.getElementById("year");
-yearSpan.textContent = new Date().getFullYear();
+if (yearSpan) {
+  yearSpan.textContent = new Date().getFullYear();
+}
 
 // Simple contact form handling (front-end only)
 const contactForm = document.getElementById("contactForm");
 const formStatus = document.getElementById("formStatus");
 
-contactForm.addEventListener("submit", (e) => {
-  e.preventDefault();
-  formStatus.textContent = "Thank you! Your message has been recorded.";
-  contactForm.reset();
-  setTimeout(() => {
-    formStatus.textContent = "";
-  }, 4000);
-});
+if (contactForm && formStatus) {
+  contactForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    formStatus.textContent = "Thank you! Your message has been recorded.";
+    contactForm.reset();
+    setTimeout(() => {
+      formStatus.textContent = "";
+    }, 4000);
+  });
+}

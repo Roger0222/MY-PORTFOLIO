@@ -3,14 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | Portfolio</title>
+  <title>Roger | Portfolio</title>
+
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <!-- Header / Navigation -->
   <header class="header">
     <div class="container nav-container">
-      <div class="logo">YourName</div>
+      <div class="logo">MY PORTFOLIO</div>
       <nav class="nav">
         <a href="#home">Home</a>
         <a href="#about">About</a>
@@ -39,8 +47,7 @@
         </div>
       </div>
       <div class="hero-image">
-        <!-- Optional: Replace with your photo -->
-        <div class="avatar">YN</div>
+        <img src="profile.jpg" alt="Roger profile photo" class="profile-photo" />
       </div>
     </div>
   </section>
@@ -149,10 +156,24 @@
       </p>
       <div class="contact-grid">
         <div>
-          <p><strong>Email:</strong> your.email@example.com</p>
-          <p><strong>Location:</strong> Northern Mindanao, Philippines</p>
-          <p><strong>Socials:</strong> <a href="#">LinkedIn</a> · <a href="#">GitHub</a></p>
+          <p><strong>Email:</strong> rodssimz@gmail.com</p>
+          <p><strong>Location:</strong> Poblacion, Sumilao, Bukidnon, Philippines</p>
+
+          <!-- Social icons -->
+          <div class="social-links">
+            <span><strong>Socials:</strong></span>
+            <a href="https://www.facebook.com/rogerdimatao19/" target="_blank" class="social-icon fb">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/reizexq/" target="_blank" class="social-icon ig">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/Roger0222" target="_blank" class="social-icon gh">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
         </div>
+
         <form class="contact-form" id="contactForm">
           <div class="form-group">
             <label for="name">Name*</label>
@@ -176,7 +197,7 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container footer-content">
-      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+      <p>© <span id="year"></span> Roger. All rights reserved.</p>
     </div>
   </footer>
 

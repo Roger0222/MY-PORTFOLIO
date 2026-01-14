@@ -251,12 +251,12 @@ body {
   margin-top: 2rem;
 }
 
-.projects-grid {
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-}
-
 .skills-grid {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.projects-grid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
 .card {
@@ -298,7 +298,6 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* big, visible icons */
 .skill-icon {
   font-size: 1.6rem;
   width: 1.8rem;
@@ -309,8 +308,9 @@ body {
 .fa-html5 { color: #e44d26; }
 .fa-css3-alt { color: #1572b6; }
 .fa-js { color: #f7df1e; }
-.fa-database { color: #22c55e; }
 .fa-git-alt { color: #f97316; }
+.fa-screwdriver-wrench { color: #22c55e; }
+.fa-desktop { color: #38bdf8; }
 
 /* Contact */
 
@@ -321,53 +321,7 @@ body {
   margin-top: 1.8rem;
 }
 
-.contact-form {
-  background: rgba(15, 23, 42, 0.9);
-  padding: 1.6rem;
-  border-radius: var(--radius);
-  border: 1px solid rgba(148, 163, 184, 0.2);
-  box-shadow: var(--shadow);
-}
-
-.form-group {
-  margin-bottom: 1rem;
-}
-
-label {
-  display: block;
-  margin-bottom: 0.35rem;
-  font-size: 0.85rem;
-  color: var(--muted);
-}
-
-input,
-textarea {
-  width: 100%;
-  padding: 0.65rem 0.8rem;
-  border-radius: 0.6rem;
-  border: 1px solid rgba(148, 163, 184, 0.4);
-  background: rgba(15, 23, 42, 0.9);
-  color: var(--text);
-  font-family: inherit;
-  font-size: 0.9rem;
-  outline: none;
-  transition: border-color var(--transition), box-shadow var(--transition), background var(--transition);
-}
-
-input:focus,
-textarea:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.6);
-  background: #020617;
-}
-
-.form-status {
-  margin-top: 0.6rem;
-  font-size: 0.85rem;
-  color: var(--accent);
-}
-
-/* Social icons */
+/* (no contact form now, only info) */
 
 .social-links {
   display: flex;
